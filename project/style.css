@@ -41,3 +41,9 @@
   display: none;
   bottom: 21px;
 }
+
+.weather .table .custom-tr {
+  cursor: pointer;
+  font-weight: bold;
+  color: blue;
+}
