@@ -1,0 +1,43 @@
+.wrapper .input-group {
+  width: 40%;
+}
+
+.wrapper .btn-search {
+  border-color: #dee2e6;
+}
+
+.wrapper .weather_table {
+  left: 10px;
+  width: 24%;
+  /* max-width: 400px; */
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  border-radius: 20px;
+  padding: 40px 35px;
+  display: none;
+}
+
+.wrapper .weather_icon {
+  width: 200px;
+}
+
+.wrapper .weather h2 {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.wrapper .weather h3 {
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+.wrapper .loading {
+  display: none;
+}
+
+.wrapper .spinner_country_list {
+  width: 50px;
+  height: 50px;
+  display: none;
+  bottom: 21px;
+}
