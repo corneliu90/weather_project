@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://corneliu90.github.io/",
+  "homepage": "https://corneliu90.github.io/weather_project",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d project"
   },
   "keywords": [],
   "author": "",
