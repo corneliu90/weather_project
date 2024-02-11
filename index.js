@@ -44,6 +44,7 @@ async function getCountryWeather(city) {
             tdName.textContent = element.name;
             th.textContent = index + 1;
             tr.append(th, tdName, tdRegion, tdCountry);
+            tr.classList.add("custom-tr");
             tr.addEventListener("click", async () => {
               const options = {
                 method: "GET",
