@@ -42,8 +42,8 @@
   bottom: 21px;
 }
 
-.weather .table .custom-tr {
+.custom-tr {
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 500;
   color: blue;
 }
