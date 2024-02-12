@@ -47,3 +47,15 @@
   font-weight: 500;
   color: blue;
 }
+
+@media only screen and (max-device-width: 768px) {
+  .wrapper .country_list {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .wrapper .weather_table {
+    width: 40%;
+    left: 0;
+    position: static !important;
+  }
+}
